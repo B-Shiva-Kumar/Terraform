@@ -23,6 +23,7 @@ resource "aws_instance" "my_first_instance" {
 
 
 # AWS instance with default AMI id
+# reference for default AMI id : https://letslearndevops.com/2018/08/23/terraform-get-latest-centos-ami/
 
 resource "aws_instance" "my_first_instance" {
   # automatic AMIs provides
