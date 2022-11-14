@@ -1,7 +1,7 @@
 provider "aws" {
   region     = "ap-south-1"
-  access_key = "AKIAWAPUKA7KYQXNHS2F"
-  secret_key = "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"
+  access_key = "get access_key from AWS IAM resource"
+  secret_key = "get secret_key from AWS IAM resource"
 }
 
 resource "aws_instance" "my_first_instance" {
