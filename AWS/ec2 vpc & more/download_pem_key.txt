@@ -1,0 +1,19 @@
+# to get pem key file for using ssh.
+# open power shell
+
+ssh-keygen.exe -f tf-key
+copy tf-key tf-key.pem -> pem key will be downloaded into the current path you are in.
+
+# downloaded pem fill will not have sufficient permissions.
+# following commands used for providing permissions to the pem file.
+
+$path = ".\tf-key.pem"
+
+# reset to remove explicit permissions
+icacls.exe $path /reset
+
+# give current user explicit read-permission
+icacls.exe $path /GRANT:R "$($new:USERNAME):(R)"
+
+# disable inheritance & remove inherited permissions
+icacls.exe $path /inheritance:r
