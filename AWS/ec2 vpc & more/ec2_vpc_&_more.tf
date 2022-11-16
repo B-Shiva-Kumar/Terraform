@@ -162,7 +162,7 @@ resource "aws_instance" "tf_instance" {
 
   subnet_id                   = aws_subnet.public_subnet.id
   vpc_security_group_ids      = [aws_security_group.sg.id]
-  associate_public_ip_address = true
+  associate_public_ip_address = instance_vars.public_ip
 
   # $(curl https://api.kanye.rest/?format=text)
   user_data = <<-EOF
