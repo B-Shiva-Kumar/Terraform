@@ -14,6 +14,6 @@ variable "inst_type" {
 }
 
 variable "public_ip" {
-    type = boolean
+    type = bool
     default = true
 }
