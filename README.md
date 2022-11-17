@@ -9,6 +9,16 @@ tf state file :
 - it is a JSON file containing inf. about every resource & data object.
 - Contians sensitive inf. (eg. db pswd).
 - can be stored locally or remotely.
+- local backend  -> * sensitive values in plain txt.
+                    * Uncollaborative.
+                    * Manual.
+              
+- remote backend -> * terraform cloud | S3.
+                    * senstivie data encrypted.
+                    * collaboration possible.
+                    * automation possible.
+                    * Increased complexity.
+
 
 
 Terraform Variables:
