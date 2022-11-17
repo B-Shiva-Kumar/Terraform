@@ -10,6 +10,7 @@ tf state file :
 - Contians sensitive inf. (eg. db pswd).
 - can be stored locally or remotely.
 
+
 Terraform Variables:
 
 - Input variables.
