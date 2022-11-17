@@ -1,5 +1,9 @@
 # Terraform
-This is a Terraform repository, where I will be updating my templates for my reference.
+This is a my Terraform repository, where I will be updating my templates for my reference.
+Feel free to use for your reference also!
+
+
+Terraform : tf is a tool for building, changing & versioning infrastructure safely & efficiently.
 
 
 Terraform Variables:
