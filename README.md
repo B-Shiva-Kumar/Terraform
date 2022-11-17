@@ -5,16 +5,20 @@ Feel free to use for your reference also!
 
 Terraform : tf is a tool for building, changing & versioning infrastructure safely & efficiently.
 
+tf state file : 
+- it is a JSON file containing inf. about every resource & data object.
+- Contians sensitive inf. (eg. db pswd).
+- can be stored locally or remotely.
 
 Terraform Variables:
 
-- Input variables
-- Output variables
-- Local variables
+- Input variables.
+- Output variables.
+- Local variables.
 
 
 Terraform Modules:
 
-- Root Module
-- Child Module
-- Published Module
+- Root Module.
+- Child Module.
+- Published Module.
