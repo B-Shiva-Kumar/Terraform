@@ -5,5 +5,5 @@
 # In other configurations, you may store credentials in the terraform.tfvars file. 
 # Never commit sensitive values into source control.
 
-project                  = "hip-fusion-376308"
-credentials_file         = "gcp_key_file.json"
+project                  = "<project-id>"
+credentials_file         = "<key-file-name-created-from-service-account-in-IAM>.json"
