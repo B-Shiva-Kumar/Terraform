@@ -15,3 +15,4 @@ sudo apt install terraform
 
 # install awscli
 sudo apt install awscli -y
+sudo apt update
