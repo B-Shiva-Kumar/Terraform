@@ -1,7 +1,7 @@
-variable "ami_id" {
-  description = "AMI ID -> us-west-2 region"
-  default     = "ami-095413544ce52437d"
-}
+# variable "ami_id" {
+#   description = "AMI ID -> us-west-2 region"
+#   default     = "ami-095413544ce52437d"
+# }
 
 variable "cidr_vpc" {
   description = "CIDR block for the VPC"

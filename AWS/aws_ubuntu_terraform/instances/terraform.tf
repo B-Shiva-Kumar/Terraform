@@ -1,5 +1,14 @@
 # Terraform settings
 terraform {
+
+# uncomment cloud block to store state file in Terraform Cloud instead locally. 
+  # cloud {
+  #     organization = "skbofac812"
+  #     workspaces {
+  #       name = "terraform-cloud"
+  #     }
+  # }
+
   required_providers {
     aws = {
       source  = "hashicorp/aws"
